@@ -62,7 +62,7 @@ public class RtmppublisherPlugin : FlutterPlugin, ActivityAware {
     }
 
     private fun maybeStartListening(
-            activity: Activity,
+            activity: Activity?,
             messenger: BinaryMessenger,
             permissionsRegistry: PermissionStuff,
             textureRegistry: TextureRegistry) {
